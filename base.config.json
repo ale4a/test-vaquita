@@ -1,0 +1,35 @@
+{
+  "appId": "vaquita-miniapp-test",
+  "name": "Vaquita MiniApp Test",
+  "description": "Staking de USDC basado en el algoritmo de Vaquita en Base - Test Project",
+  "icon": "https://test-vaquita.vercel.app/logo_vaquita.png",
+  "url": "https://test-vaquita.vercel.app/miniapp",
+  "category": "DeFi",
+  "tags": ["staking", "usdc", "base", "defi", "test"],
+  "chains": ["base"],
+  "permissions": [
+    "wallet_connect",
+    "wallet_disconnect",
+    "wallet_sign_message",
+    "wallet_sign_transaction"
+  ],
+  "version": "1.0.0",
+  "author": "Vaquita Team",
+  "repository": "https://github.com/vaquita-fi/test-vaquita",
+  "homepage": "https://test-vaquita.vercel.app/miniapp",
+  "license": "MIT",
+  "keywords": ["base", "miniapp", "defi", "staking", "usdc", "vaquita", "test"],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "deployment": {
+    "platform": "vercel",
+    "url": "https://test-vaquita.vercel.app/miniapp",
+    "environment": "production"
+  }
+}

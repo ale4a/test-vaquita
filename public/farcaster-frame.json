@@ -1,0 +1,43 @@
+{
+  "frames": [
+    {
+      "name": "Vaquita MiniApp",
+      "description": "Staking de USDC basado en el algoritmo de Vaquita en Base",
+      "image": "https://test-vaquita.vercel.app/logo_vaquita.png",
+      "url": "https://test-vaquita.vercel.app/miniapp/frame",
+      "buttons": [
+        {
+          "label": "Conectar Wallet",
+          "action": "post_redirect"
+        },
+        {
+          "label": "Ver Contrato",
+          "action": "link",
+          "target": "https://basescan.org/address/0x2bC60217Aa862696e96eB831B8b67BF0BB14D407"
+        },
+        {
+          "label": "Hacer Depósito",
+          "action": "post_redirect"
+        }
+      ],
+      "aspectRatio": "1.91:1",
+      "state": {
+        "network": "Base",
+        "contract": "0x2bC60217Aa862696e96eB831B8b67BF0BB14D407",
+        "token": "USDC",
+        "miniapp": true
+      },
+      "input": {
+        "text": "Cantidad de USDC a depositar"
+      }
+    }
+  ],
+  "metadata": {
+    "title": "Vaquita MiniApp - Staking USDC en Base",
+    "description": "Staking de USDC basado en el algoritmo de Vaquita en Base",
+    "image": "https://test-vaquita.vercel.app/logo_vaquita.png",
+    "url": "https://test-vaquita.vercel.app/miniapp/frame",
+    "type": "website",
+    "site_name": "Vaquita MiniApp"
+  }
+}
